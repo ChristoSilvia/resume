@@ -1,0 +1,151 @@
+% Latex file for resume.  Requires `res.cls`
+\documentclass[12pt]{res}
+
+\usepackage{extsizes}
+\usepackage{geometry}
+\usepackage{hyperref}
+\usepackage[utf8]{inputenc}
+
+\geometry{
+	letterpaper,
+	left=0.5in,
+	textwidth=6.75in,
+	top=0.5in,
+}
+
+\begin{document}
+% [12pt] adds a blank line after the name.
+\begin{centering}
+{\bf CHRISTOPHER P. SILVIA}\\
+(240)-515-5838\\
+\href{mailto:cps232@cornell.edu}{cps232@cornell.edu}\\
+\end{centering}
+
+\vspace{30pt}
+
+\address{\bf Present Address \\608 East Buffalo St.\\Ithaca, NY 14850}
+\address{\bf Permanant Address \\ 7801 Leesburg Drive \\ Bethesda MD, 20817}
+
+
+\begin{resume}
+  \section{Education}
+
+	\noindent
+    {\bf Cornell University, Ithaca, NY}\\
+    Bachelor of Arts, Physics with concentration in Applied Mathematics\\
+    Bachelor of Arts, Mathematics, with concentration in Applied Mathematics\\
+    Expected Graduation Date: May 2017 \\
+    GPA: 3.64/4.0
+
+  \section{Honors and Awards}
+	\noindent
+    Dean's List of Distinguished Students: Fall 2013, Spring 2014, Fall 2014, Spring 2015, Fall 2015\\
+
+  \vspace{-10pt}
+  \section{Experience}
+    
+    \vspace{5pt}
+    \begin{tabbing}
+      \hspace{2.3in} \= \hspace{2.6in} \= \kill
+      {\bf Research Team Member} \> Professor Alexander Vladimirsky  \> Summer 2016 \\
+		\> Department of Mathematics\\
+		\> Cornell University \\
+    \end{tabbing}\vspace{-30pt}	
+
+	\noindent
+	I wrote a path-planning algorithm to improve ambulance response times.
+	The algorithm allows ambulances to exploit their idle time by
+driving through more accident-prone areas.
+	I implemented the algorithm using Python's NetworkX library,
+as well as a custom heap implementation which allowed for
+efficient in-place modification.
+    
+    \vspace{5pt}
+    \begin{tabbing}
+      \hspace{2.3in} \= \hspace{2.6in} \= \kill
+      {\bf Research Team Member} \> Professor Bob Strichartz  \> Summer 2015 \\
+		\> Department of Mathematics\\
+		\> Cornell University \\
+    \end{tabbing}\vspace{-30pt}	
+
+	\noindent
+	I investigated properties of solutions to the Schrödinger equation on
+		the Serpinski Gasket, a fractal space.
+	I numerically solved the differential equation through discretization
+		with a novel scheme, and equalled the previous theoretical bound
+		on precision solutions for differential equations of this type.
+
+	\vspace{5pt}
+	\begin{tabbing}
+		\hspace{2.3in} \= \hspace{2.6in} \= \kill
+		{\bf Research Team Member} \> Professor John Phillip \> Summer 2014 \\
+		\> Department of Physics\\
+		\> Catholic University of America \\
+	\end{tabbing} \vspace{-30pt}
+
+	\noindent
+	I investigated the dynamics of micromagentic systems.
+	I used and wrote programs to simulate micromagnetic dynamics and produce
+		theoretical predictions about the geometry-dependend properties
+		of small ferromagnetic materials. 
+
+    % Lockheed
+    \begin{tabbing}
+    \hspace{2.3in}\= \hspace{2.6in}\= \kill % setup two tab positions
+    \textbf{ Intern } \> Lockheed Martin Corporation \> Summer 2013\\
+                  \> Gaithersburg, MD
+    \end{tabbing}\vspace{-10pt}
+
+	\noindent
+	I created a system to deploy servers automatically to execute
+    hadoop and storm queries on a large dataset of healthcare
+    records, as well as automated other systems administration tasks.
+
+    % NIST
+    \begin{tabbing}
+    \hspace{2.3in}\= \hspace{2.6in}\= \kill % setup two tab positions
+    \textbf{Electronics Aide} \> National Institute of Standards \> Summer 2012\\
+						\> and Technology (NIST) \\
+                           \> Gaithersburg, MD    
+    \end{tabbing}\vspace{-10pt}
+	\noindent
+      I created a console to display active jobs and broken nodes
+      on a computer cluster at NIST and repaired broken computers.
+
+  \section{Skills}
+	\noindent
+	\begin{itemize}
+	\item Creating and analyzing numerical models, which used both 
+		linear algebra and differential equations to predict the behavior of a system, 
+		and experience writing executive summaries \LaTeX to summarize my findings to a nontechnical audience.
+	\item Writing robot control systems with Linux, Robot Operating System
+		(ROS) using Python (numpy/scipy).
+	\item Designing mechanical systems on a FIRST robotics
+		competition robot using Autodesk Inventor, 
+		as well as acting as lead engineer.
+	\item Working on teams to deliver projects and write-ups
+		in engineering and mathematical modeling classes,
+		some involving collaborating on a significant amount of shared
+		code using Git.
+	\end{itemize}
+
+	\section{Programming Languages}
+	\noindent
+	\begin{itemize}
+	\item Proficient in Python, as well as its numpy and scipy libraries
+	\item Experienced with Matlab, Julia, and Octave
+	\end{itemize}
+
+  \section{Relevant Coursework}
+    \vspace{-5pt}
+    \begin{tabbing}
+      \hspace{2.3in} \= \hspace{2.3in} \= \kill
+      {\bf Math}         \> {\bf Physics}      \> {\bf Engineering} \\
+      Numerical Analysis \> Fluid Dynamics \> Mobile Sensor Planning \\
+      Nonlinear Dynamics \> Thermodynamics \> Robotic Manipulation\\ 
+      Mathematical Modeling \> Computational Physics \> Circuits  \\
+      Complex Analysis \> Quantum Mechanics \> Lasers and Photonics\\
+    \end{tabbing}
+
+\end{resume}
+\end{document}
