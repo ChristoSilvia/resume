@@ -8,6 +8,7 @@ Contains the foreign file `res.cls`, which I got off the internet.
 
 `res.cls` was written by Michael DeCorte, as explained in the file's
 	preamble, and contains additional modifications.
-I would like to thank Michael DeCorte for his helpful style.
+I would like to thank Michael DeCorte for his helpful style,
+	and Venkat Krishnamurthy for his updates to the file.
 
 Feel free to copy the template, or send me an email with a job offer.
