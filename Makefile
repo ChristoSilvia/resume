@@ -1,0 +1,2 @@
+make:
+	pdflatex resume.tex
